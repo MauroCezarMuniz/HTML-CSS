@@ -1,0 +1,1 @@
+CTRL SHIFT P e selecionar ABB para criar tags em palavras selecionadas
