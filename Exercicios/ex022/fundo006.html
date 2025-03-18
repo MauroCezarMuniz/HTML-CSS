@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+           /* shorthand fica assim: background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover; */
+        }
+
+        /* background-attachment: scroll;	-> padrão; o fundo rola junto com o conteúdo
+			fixed;	-> fundo fixo à tela, a medida que o conteúdo rola
+             (ótimo combinado com background-size: cover;)
+
+Shorthand - background:
+
+ 	Sequência:	color > image > position > repeat > [size] > attachment
+    [size não esta funcionando entao faça um size fora da shorthand]
+ */
+
+        /* Mudando o tamanho da imagem de fundo do site
+
+background-size: 100%  100%;	-> preenche a tela, mas achata e distorce a imagem
+		                countain;  	-> a imagem é 100% exibida, com laterais vazias as vezes
+		                cover;		-> cobre a tela toda mesmo que tenha que cortar a imagem */
+
+        main {
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut voluptas veritatis ea quia amet expedita cupiditate. Quos repudiandae, architecto eum, veritatis tenetur dolorum eveniet similique atque nulla aspernatur minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa cumque provident, nisi asperiores eius minima iusto veritatis quod dolorum laudantium sint numquam, repellat exercitationem. Labore quis mollitia id praesentium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui nemo eaque aliquid dolor, magnam commodi ducimus repudiandae magni corrupti quis, quod fugit vero. Sed vitae aperiam laboriosam sapiente debitis?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut voluptas veritatis ea quia amet expedita cupiditate. Quos repudiandae, architecto eum, veritatis tenetur dolorum eveniet similique atque nulla aspernatur minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa cumque provident, nisi asperiores eius minima iusto veritatis quod dolorum laudantium sint numquam, repellat exercitationem. Labore quis mollitia id praesentium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui nemo eaque aliquid dolor, magnam commodi ducimus repudiandae magni corrupti quis, quod fugit vero. Sed vitae aperiam laboriosam sapiente debitis?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut voluptas veritatis ea quia amet expedita cupiditate. Quos repudiandae, architecto eum, veritatis tenetur dolorum eveniet similique atque nulla aspernatur minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa cumque provident, nisi asperiores eius minima iusto veritatis quod dolorum laudantium sint numquam, repellat exercitationem. Labore quis mollitia id praesentium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui nemo eaque aliquid dolor, magnam commodi ducimus repudiandae magni corrupti quis, quod fugit vero. Sed vitae aperiam laboriosam sapiente debitis?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut voluptas veritatis ea quia amet expedita cupiditate. Quos repudiandae, architecto eum, veritatis tenetur dolorum eveniet similique atque nulla aspernatur minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa cumque provident, nisi asperiores eius minima iusto veritatis quod dolorum laudantium sint numquam, repellat exercitationem. Labore quis mollitia id praesentium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui nemo eaque aliquid dolor, magnam commodi ducimus repudiandae magni corrupti quis, quod fugit vero. Sed vitae aperiam laboriosam sapiente debitis?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ut voluptas veritatis ea quia amet expedita cupiditate. Quos repudiandae, architecto eum, veritatis tenetur dolorum eveniet similique atque nulla aspernatur minus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, ipsa cumque provident, nisi asperiores eius minima iusto veritatis quod dolorum laudantium sint numquam, repellat exercitationem. Labore quis mollitia id praesentium! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime qui nemo eaque aliquid dolor, magnam commodi ducimus repudiandae magni corrupti quis, quod fugit vero. Sed vitae aperiam laboriosam sapiente debitis?</p>
+    </main>
+</body>
+</html>
